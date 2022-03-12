@@ -20,7 +20,7 @@ public class Program {
             String gender = sc.nextLine();
             if ("F".equals(gender.toUpperCase())) femaleList.add(name);
             else if ("M".equals(gender.toUpperCase())) maleList.add(name);
-            else System.out.println("Não identifiquei o sexo informado");
+            else System.out.println("Não identifiquei o sexo informado, esta pessoa não será registrada");
         }
         System.out.println("Lista dos homens:");
         for (String male : maleList) System.out.println(" - " + male);
